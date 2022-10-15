@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Koulen&family=Montserrat:ital,wght@1,200&family=Poppins&family=Roboto&family=Roboto+Slab&display=swap');
+body{
+  margin: 0;
+  
+}
+nav {
+  display: flex;
+  align-items: center;
+  background: #42032C80;
+  margin-top: 20px;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 0%;
+  font-family: 'Merienda One', cursive;
+  box-shadow: 1px 0px 10px #ffffff70;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+}
+nav ul li {
+  list-style: none;
+  margin: 20px;
+  color: #fff;
+}
+
+nav ul a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul a:hover{
+  color: black;
+}
+
+#myVideo {
+  display: block;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 100vw;
+  z-index: -5;
+  padding: 0%;
+  /* visibility: visible; */
+}
+#Video {
+  right: 0;
+  bottom: 0;
+  max-width: 60%;
+  /* min-height: 50%; */
+  padding: 0%;
+  position: absolute;
+  z-index: 5;
+  mix-blend-mode: screen;
+  padding: 30px;
+  opacity: 0.5;
+  margin-bottom: 60px;
+  margin-left: 40px;
+}
+.mobile{
+  /* display: none; */
+  /* width: 90%; */
+  position: absolute;
+  left: 0px;
+  z-index: -56262;
+  height: 80vh;
+}
+.container{
+  color: #fff;
+  padding-top: 70px;
+  margin-left: 70px;
+  line-height: 1.2;
+}
+
+h3{
+  font-size: 4rem;
+}
+
+/* img{
+  width: 30%;
+  margin-left: 300px;
+  position: relative;
+  left: 500px;
+  bottom: 300px;
+} */
+h1{
+  font-size: 4rem;
+  
+  color: #FF74B1;
+  font-weight:bold;
+  line-height: 1.2;
+  /* margin: 20px; */
+  font-family: 'Quicksand', sans-serif;
+}
+h3{
+  font-size: 1.2rem;
+  font-family: 'Merienda One', cursive;
+
+}
+span{
+  color: #FF74B1;
+}
+p{
+  font-size: 1.2rem;
+  font-family: 'Merienda One', cursive;
+}
+
+.btn {
+  background-color:#FF74B1 ;
+  width: 150px;
+  height: 40px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 1px 1px 5px #ffffff;
+}
+.btn:hover{
+  background-color: white;
+}
+
+@media only screen and (max-width: 480px) {
+  #myVideo {
+    /* position: relative; */
+    /* overflow: hidden; */
+    z-index: -1;
+    /* display: block; */
+    background-size: cover;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100vh;
+  height: 127vh;
+  z-index: -5;
+  padding: 0%;
+  /* visibility: hidden; */
+  }
+  .mobile{
+    /* visibility: visible;
+    width: 100vh; */
+    /* display: block; */
+    /* background-size: cover;
+    position: absolute;
+    top: 0;
+    z-index:-1; 
+    height: 200vh; */
+    visibility: hidden;
+    /* opacity: 0.9; */
+  }
+  /* .container{
+    margin: 0;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: o;
+  } */
+ 
+
+  h1{
+    font-size: 2.5rem;
+    /* color: #fff; */
+    margin-right: 40px;
+  }
+  h3{
+    font-size: 1.4rem;
+  
+  }
+  p{
+    font-size: 1.3rem;
+  }
+  /* .container{
+    margin: 0;
+  } */
+  .btn{
+    width: 120px;
+  height: 50px;
+  }
+  #Video{
+  visibility: hidden;
+  }
+}
